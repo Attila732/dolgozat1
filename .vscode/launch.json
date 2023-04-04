@@ -7,19 +7,21 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "lapatlo_298a162",
+            "vmArgs": "--module-path C:/Users/diak/EI/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
+        },
+        
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
             "vmArgs": "--module-path C:/Users/diak/EI/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
         },
-        {
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "trapit_50b5aea7",
-            "vmArgs": "--module-path C:/Users/diak/EI/openjfx-20_windows-x64_bin-sdk/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
-        }
+        
     ]
 }
 
