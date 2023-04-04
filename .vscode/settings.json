@@ -1,3 +1,12 @@
+/*
+* File: App.java
+* Author: Kovács Attila
+* Copyright: 2023.04.04,Kovács Attila
+* Group: Szoft 1
+* Date: 2023-04-04
+* Github: https://github.com/Attila732/dolgozat1
+* Licenc: GNU GPL
+*/
 {
     "java.project.sourcePaths": ["src"],
     "java.project.outputPath": "bin",

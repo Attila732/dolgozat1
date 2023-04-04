@@ -1,10 +1,10 @@
 /*
-* File: ButtonPanel.java
+* File: App.java
 * Author: Kovács Attila
 * Copyright: 2023.04.04,Kovács Attila
 * Group: Szoft 1
-* Date: 2021-09-03
-* Github: https://github.com/janos/
+* Date: 2023-04-04
+* Github: https://github.com/Attila732/dolgozat1
 * Licenc: GNU GPL
 */
 import javafx.application.Application;
@@ -43,7 +43,7 @@ public class App extends Application{
         titlehbox.setPadding(new Insets(10,10,10,10));
         titlehbox.setAlignment(Pos.CENTER);
 
-        //a oldal bekérés
+        // lapátló bekérés
         Label asideLabel=new Label("Adja meg a lapátlót:");
         asideField = new TextField();
         asidehbox.getChildren().addAll(asideLabel, asideField);
@@ -69,6 +69,8 @@ public class App extends Application{
         areaField=new TextField();
         areabox.getChildren().addAll(areLabel,areaField);
         areabox.setPadding(new Insets(10,10,10,10));
+        areLabel.setMinWidth(100);
+        areLabel.setAlignment(Pos.CENTER);
        
         
 
